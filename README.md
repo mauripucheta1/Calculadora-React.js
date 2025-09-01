@@ -1,46 +1,25 @@
-# Astro Starter Kit: Basics
+# 🧮 Calculadora React
 
-```sh
-npm create astro@latest -- --template basics
-```
+Una calculadora simple pero funcional desarrollada con **React.js**, ideal para practicar componentes, manejo de estado y lógica matemática. Este proyecto forma parte de mi portfolio como desarrollador frontend y refleja buenas prácticas de estructura, diseño y funcionalidad.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## 🚀 Tecnologías utilizadas
 
-## 🚀 Project Structure
+- ⚛️ React.js 
+- 💅 CSS Modules / Tailwind (según tu stack)
+- 📦 Astro 
 
-Inside of your Astro project, you'll see the following folders and files:
+## 🎯 Funcionalidades
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
+- Operaciones básicas: suma, resta, multiplicación y división  
+- Manejo de decimales y cero  
+- Botón de reset (AC)  
+- Interfaz responsive  
+- Animaciones sutiles 
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+## 🛠️ Instalación
 
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+```bash
+git clone https://github.com/mauricio-pucheta/Calculadora-React.js.git
+cd Calculadora-React.js
+npm install
+npm run dev
